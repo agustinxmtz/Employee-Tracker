@@ -1,0 +1,33 @@
+{
+  "name": "Employee-Tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reset": "node ./scripts/resetSchema.js",
+    "seed": "node ./scripts/seedDB.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustinxmtz/Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustinxmtz/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/agustinxmtz/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5",
+    "run-my-sql-file": "^1.0.0"
+  }
+}
